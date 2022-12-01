@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    <img src="https://i.imgur.com/U7afLiO.png" id="img" height="200px">
+    <img src="" id="img" height="200px">
     <br />
     <input type="file" id="file">
     <br />
@@ -31,8 +31,20 @@
             }).then(data => data.json()).then(data => {
                 img.src = data.data.link
                 url.innerText = data.data.link
+
+                const newObject = {"imagen":data.data.link};
+                fetch("https://retoolapi.dev/wFQamQ/data",{
+                method:"POST",
+                body:JSON.stringify(newObject),
+                        headers:{
+                        'Content-Type': 'application/json'
+                        }})
+                .then(res=> res.json())
+                .then(data=> console.log(data))
             })
         })
+
+    
 
         
     </script>
