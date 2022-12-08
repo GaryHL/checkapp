@@ -24,7 +24,7 @@ const NavBar = ({ navOrSearch, setNavOrSearch }) => {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0, y: -100 }}
          >
-            <ContainerLogo>
+            <ContainerLogo to="/home">
                <BsCheck2 />
                <h2>checkapp</h2>
             </ContainerLogo>

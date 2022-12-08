@@ -62,11 +62,11 @@ export const ContainerSettings = styled.div`
    }
 `;
 
-export const Menu = styled(motion.div)`
+export const Menu = styled(motion.nav)`
    width: calc(100% - 4px);
-   position: absolute;
+   position: fixed;
    border:2px solid black;
-   z-index: 2;
+   z-index: 5;
    height: 60vh;
    ${(props) => (props.isOpen ? "margin:0;" : "margin-top:-61vh;")}
    ${(props) => (props.isOpen ? "box-shadow: 0vh 0 0.2rem black;" : null)}
@@ -126,6 +126,6 @@ export const LinkMenu = styled(Link)`
 export const ContainerMenu = styled.div`
    width: 100%;
    position:absolute;
-   height: 100vh;
-   ${(props) => (props.isOpen ? "background-color: #0000009a;" : null)}
+   
+   ${(props) => (props.isOpen ? "background-color: #0000009a;height: 100vh;" : null)}
 `;

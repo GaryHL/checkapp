@@ -7,7 +7,7 @@ import {AiFillStar} from 'react-icons/./ai'
 import {IoMdThumbsUp}from 'react-icons/./io'
 import {IoMdThumbsDown}from 'react-icons/./io'
 
-const CommentBox = () => {
+const CommentBox = ({user,comment}) => {
   
   const likes = Math.floor(Math.random()* 500);
   const dislikes = Math.floor(Math.random()* 200);
@@ -61,7 +61,7 @@ const CommentBox = () => {
       </PersonContainer>
       <FirstContainer>
           <h4>
-          Chiquito de la Calzada
+          {comment}
           </h4>
           <p>
           14 diciembre 2022
@@ -77,7 +77,7 @@ const CommentBox = () => {
           <h2>4,7</h2>
       </SecondContainer>
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, harum ut iure blanditiis facere id deserunt magnam sunt praesentium voluptatem illum nihil optio tempora voluptate itaque totam saepe sint. Laborum.
+       {comment}
       </p>
       <ThirdContainer>
         <h3>{like}</h3>
