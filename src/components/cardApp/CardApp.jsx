@@ -29,22 +29,26 @@ const CardApp = () => {
                             <EstrellasA>★★★★★</EstrellasA>: null
                         }
                         {item.rating===4 ?
-                            <EstrellasA>★★★★
+                            <EstrellasA>
+                                ★★★★
                                 <div className='estrellasN'>★</div>
                             </EstrellasA> : null
                         }
                         {item.rating===3 ?
-                            <EstrellasA>★★★
+                            <EstrellasA>
+                                ★★★
                                 <div className='estrellasN'>★★</div>
                             </EstrellasA>: null
                         }
                         {item.rating===2 ?
-                            <EstrellasA>★★
+                            <EstrellasA>
+                                ★★
                                 <div className='estrellasN'>★★★</div>
                             </EstrellasA>: null
                         }
                         {item.rating===1 ?
-                            <EstrellasA>★
+                            <EstrellasA>
+                                ★
                                 <div className='estrellasN'>★★★★</div>
                             </EstrellasA>: null
                         }
