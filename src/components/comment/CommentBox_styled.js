@@ -45,7 +45,7 @@ export const SecondContainer = styled.div`
      font-size: large;
      font-weight: 20px;
      }
-     `
+  `
   
 export const ThirdContainer = styled.div`
     display: flex;
@@ -53,37 +53,23 @@ export const ThirdContainer = styled.div`
     align-items: center;
     padding-top: 10px;
     >SVG{
-     font-size: 25px;
-     color: #FCB700;
+    font-size: 25px;
+    color: #FCB700;
     }
-   `     
-   
-   
-
-
-
-      
-         
-        
-      
-
-
-
-    
-     
-
-      
-   
-
-   
-   
-
-        
-     
-     
-     
-
-     
-        
-
-    
+`     
+export const ButtonLike = styled.button`
+    background: #fff;
+    border: unset;
+    outline: 0;
+    font-size: 18px;
+    cursor: pointer;
+    color: #65676b;
+    padding: 5px 10px;
+    .liked {
+    color: #0571ed;
+}
+    .liked i{
+  animation: anim 0.5s ease-in-out;
+  -webkit-animation: anim 0.5s ease-in-out;
+}
+`
