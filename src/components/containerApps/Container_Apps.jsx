@@ -6,7 +6,7 @@ import {
    Cards,
 } from "./ContainerApps_styled";
 import data from "../../data/dataApps.json";
-import AppCard from "../cardApp/CardApp";
+import AppCard from "../appCard/AppCard";
 import DetailedFilter from "../detailedFilter/DetailedFilter";
 import AppContext from "../../context/AppContext";
 

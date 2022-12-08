@@ -73,3 +73,11 @@ export const Rating = styled.div`
       }
    }
 `;
+
+export const EstrellasA = styled.div`
+display: flex;
+color: yellow;
+    .estrellasN{
+        color: black;
+    }
+`
