@@ -22,3 +22,12 @@ export const systemColours ={
     errorColor:"#F65447",
     successColor:"#0A9118",
 }
+
+export const tipography = {
+    h1Mobile: "Atkinson Hyperlegible",
+    h2Mobile: "Atkinson Hyperlegible",
+    h3Mobile: "Atkinson Hyperlegible",
+    h4Mobile: "Atkinson Hyperlegible",
+    textForm: "Atkinson Hyperlegible",
+};
+

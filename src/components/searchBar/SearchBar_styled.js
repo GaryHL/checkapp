@@ -27,7 +27,7 @@ export const ContainerSearchBar = styled(motion.div)`
          font-size: 1.2rem;
          &::placeholder {
            color: black;
-           font-size: 1.2rem;
+           font-size: 1.5rem;
            transition:0.3s;
         }
          &:focus {
@@ -44,7 +44,7 @@ export const ContainerSearchBar = styled(motion.div)`
          border: none;
          background-color: black;
          color: white;
-         padding: 0 1.5rem;
+         padding: 0 .8rem;
          > svg {
             font-size: 1.5rem;
          }

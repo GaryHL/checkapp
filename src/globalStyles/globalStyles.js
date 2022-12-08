@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
-const GlobalSyle = createGlobalStyle`
+const GlobalStyle = createGlobalStyle`
 
 *{
     margin:0;
@@ -14,4 +14,4 @@ body{
     font-family: 'Atkinson Hyperlegible', sans-serif;
 }`
 
-export default GlobalSyle;
+export default GlobalStyle;

@@ -11,7 +11,6 @@ export const ContainerNavBar = styled(motion.div)`
    padding: 0.5rem 1rem;
    position: fixed;
    background-color: ${huesMain.hues02};
-   border: 2px solid ${brandColours.blackColor};
    display: flex;
    justify-content: space-between;
    align-items: center;
