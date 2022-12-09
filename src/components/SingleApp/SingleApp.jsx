@@ -14,7 +14,7 @@ import {
 import AppContext from "../../context/AppContext";
 import { AiFillStar } from "react-icons/ai";
 import ShowAddComment from "../ShowAddComment/ShowAddComment";
-import { Platforms, Rating } from "../appCard/AppCard_styled";
+import { Platforms, Rating } from "../AppCard/AppCard_styled";
 import { MainButton } from "../button/Button_styled";
 
 const SingleApp = () => {

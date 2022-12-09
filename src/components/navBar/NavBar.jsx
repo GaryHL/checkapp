@@ -49,6 +49,9 @@ const NavBar = ({ navOrSearch, setNavOrSearch }) => {
                   <li>
                      <LinkMenu to ="/editform">Edit / Remove</LinkMenu>
                   </li>
+                  <li>
+                     <LinkMenu to ="/compareapp">Compare Apps</LinkMenu>
+                  </li>
                </ul>
             </Menu>
          </ContainerMenu>

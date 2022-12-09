@@ -6,6 +6,7 @@ import Filter from "../views/filter/Filter";
 import AppUploadForm from "../views/appUploadForm/AppUploadForm";
 import AppEditForm from '../views/appEditForm/AppEditForm'
 import SingleAppView from "../views/SingleAppView/SingleAppView";
+import CompareApp from "../components/CompareApp/CompareApp"
 
 function Router() {
 
@@ -31,7 +32,7 @@ function Router() {
             <Route path="/uploadform" element={<AppUploadForm/>} />
             <Route path="/singleapp" element={<SingleAppView />}/> 
             <Route path="/editform" element={<AppEditForm/>}/> 
-            
+            <Route path="/compareapp" element={<CompareApp/>}/>
   {/* <Route path="/filter" element={<Filter setSettingsFilter={setSettingsFilter} settignsFilter={settignsFilter}/>} />*/}
          </Routes>
       </BrowserRouter>

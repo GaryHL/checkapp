@@ -2,7 +2,7 @@ import React, {useContext,useState, useEffect } from "react";
 import { ContainerSearchBar, ContainerResults } from "./SearchBar_styled";
 import { AiOutlineSearch } from "react-icons/ai";
 import AppContext from "../../context/AppContext";
-import AppCard from "../appCard/AppCard";
+import AppCard from "../AppCard/AppCard";
 import { Cards } from "../containerApps/ContainerApps_styled";
 
 const SearchBar = ({ navOrSearch, setNavOrSearch,inBody } ) => {
