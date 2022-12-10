@@ -15,7 +15,7 @@ export const ContainerNavBar = styled(motion.div)`
    display: flex;
    justify-content: space-between;
    align-items: center;
-   z-index: 2;
+   z-index: 10;
 `;
 
 export const ContainerLogo = styled(Link)`
@@ -66,7 +66,7 @@ export const Menu = styled(motion.nav)`
    width: calc(100% - 4px);
    position: fixed;
    border:2px solid black;
-   z-index: 5;
+   z-index: 20;
    height: 60vh;
    ${(props) => (props.isOpen ? "margin:0;" : "margin-top:-61vh;")}
    ${(props) => (props.isOpen ? "box-shadow: 0vh 0 0.2rem black;" : null)}
