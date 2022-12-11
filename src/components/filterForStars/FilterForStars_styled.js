@@ -16,6 +16,11 @@ export const ContainerFilter = styled.div`
    display: flex;
    position: relative;
    justify-content: space-around;
+   >:last-child{
+      h2{
+         color:white
+      }
+   }
 `;
 
 export const TabFilter = styled.div`
@@ -32,20 +37,7 @@ background-color:gray;
       transition: 0.3s;
       color: #000000;
    }
-   /* &::after {
-      ${(props) =>
-      props.isActive
-         ? `content:"";
-    position:absolute;;
-    width:100%;
-    height:3px;
-    background-color:black;    
-    bottom:0;`
-         : null}
-      animation: ${tabActive} 0.3s;
-      transition: 0.3s;
-   } */
-   > img {
+   > svg {
       position: absolute;
       z-index: 1;
       ${(props) => (props.isActive ? "scale:1.1;" : null)}
@@ -64,4 +56,5 @@ background-color:gray;
       font-family: "bangers";
       letter-spacing: 0.2rem;
    }
+
 `;
