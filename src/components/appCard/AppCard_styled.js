@@ -1,12 +1,13 @@
 import styled from "styled-components";
-import {Link} from  "react-router-dom"
+import {Link} from  "react-router-dom";
+import {motion} from 'framer-motion'
 
 export const AppCardLink = styled(Link) `
    text-decoration: none ;
    color: black;
   `
 
-export const GeneralDiv = styled.div`
+export const GeneralDiv = styled(motion.div)`
    width: 100%;
    border:2px solid black;
    border-bottom: 0;

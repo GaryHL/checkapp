@@ -21,7 +21,11 @@ const AppCard = ({ dataApp }) => {
    return (
       <React.Fragment>
        <AppCardLink to = "/singleapp"> 
-         <GeneralDiv onClick={modifySingleApp}>
+         <GeneralDiv onClick={modifySingleApp} 
+         layout
+         initial={{ opacity: 0 }}
+         animate={{ opacity: 1 }}
+         exit={{ opacity: 0 }}>
             <IconImg>
                <img src={dataApp.app_icon ? dataApp.app_icon : ImageDefault} />
             </IconImg>

@@ -1,9 +1,10 @@
 import styled from "styled-components";
 import { brandColours } from "../../variables/variables";
-
+import {motion} from 'framer-motion';
 export const ContainerApps = styled.div`
    width: 100%;
    height: auto;
+   background-color: white;;
 `;
 export const ContainerFilter = styled.div`
    height: 5vh;
@@ -28,7 +29,7 @@ export const Banner = styled.div`
    align-items: center;
 `;
 
-export const Cards = styled.div`
+export const Cards = styled(motion.div)`
    width: calc(100% - 4px);
 
    ${(props) =>

@@ -1,9 +1,10 @@
 import styled from "styled-components";
+import { huesSec } from "../../variables/variables";
 
 export const ContainerFilter = styled.div`
    display: grid;
-   grid-template-rows: 24vh 50vh;
-
+   background-color:${huesSec.sec02};
+   grid-template-rows: 24vh auto;
    > :first-child {
     align-self:flex-end;
     margin-bottom:4.5vh;
